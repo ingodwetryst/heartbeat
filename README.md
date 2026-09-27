@@ -1,6 +1,6 @@
 # Heartbeat
 
-The heartbeat shows that long Claude Code work is still alive, without you having to ask. `heartbeat.sh` runs in the background and adds one line to the bottom of the project's progress log every 5 minutes: the time, the last finished step, what is running and the pass and fail counts. It stops when the job writes its "done" text. Claude also runs `tick.sh` as a background task that finishes every 5 minutes. Each time it finishes, Claude posts a one-line status in the chat and starts it again. `failwatch.sh` wakes Claude as soon as a new FAIL appears, so failures are reported right away. All three scripts read their paths and settings from `heartbeat.conf`.
+The heartbeat shows that long Claude Code work is still alive, without you having to nanny it. `heartbeat.sh` runs in the background and adds one line to the bottom of the project's progress log every 5 minutes: the time, the last finished step, what is running and the pass and fail counts. It stops when the job writes its "done" text. Claude also runs `tick.sh` as a background task that finishes every 5 minutes. Each time it finishes, Claude posts a one-line status in the chat and starts it again. `failwatch.sh` wakes Claude as soon as a new FAIL appears, so failures are reported right away. All three scripts read their paths and settings from `heartbeat.conf`.
 
 ## Files
 
