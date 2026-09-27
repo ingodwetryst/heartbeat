@@ -12,4 +12,4 @@ The heartbeat shows that long Claude Code work is still alive, without you havin
 
 ## Limits
 
-The chat status line depends on Claude Code relaunching `tick.sh` each time it finishes. It only works while that session is open, and each wake-up uses a small amount of your usage limit.
+The chat status line depends on Claude Code relaunching `tick.sh` each time it finishes. It only works while that session is open, and each wake-up uses a small amount of your usage limit (usually 250-500 tokens).
